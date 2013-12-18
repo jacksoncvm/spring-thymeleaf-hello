@@ -1,10 +1,13 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    layout:decorator="layout">
 <head> 
-    <title></title> 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
 </head>
 <body>
-    Hello!
+      <h1 layout:fragment="header">Index</h1>
+      <div layout:fragment="content">
+        Hello!
+      </div>
 </body>
 </html>
