@@ -1,8 +1,11 @@
-spring-thymeleaf-hello
+spring12gx redirector site
 ======================
 
 ```
-gradle build
-java -jar build/libs/site-0.1.0.jar
+./gradlew clean bootRun
 ```
 http://localhost:8080/
+
+```
+cf push
+```
