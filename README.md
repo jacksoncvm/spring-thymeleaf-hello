@@ -1,4 +1,4 @@
-spring12gx redirector site
+spring12gx site
 ======================
 
 ```
