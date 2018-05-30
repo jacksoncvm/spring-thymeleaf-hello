@@ -24,5 +24,23 @@
           Content
         </div>
     </div>
+    <div id='footer'>
+      <div class='container'>
+        <p>
+          &copy;
+          <script>
+            var d = new Date();
+            document.write(d.getFullYear());
+          </script>
+          Pivotal Software, Inc. All rights reserved. 
+          <a href='https://pivotal.io/terms-of-use'>Terms of Use</a>
+          &middot;
+          <a href='https://pivotal.io/privacy-policy'>Privacy</a>
+          <style>#teconsent a:before{content:" · ";color:#a3a4b5 !important;}#teconsent a:focus{outline:none;}</style>
+          <span id="teconsent" style='display:inline-block;'></span> 
+          <script async="async" src="https://consent.trustarc.com/notice?domain=pivotal.com&amp;c=teconsent&amp;js=nj&amp;text=true&amp;pcookie" crossorigin=""></script>
+        </p>
+      </div>
+    </div>
   </body>
 </html>

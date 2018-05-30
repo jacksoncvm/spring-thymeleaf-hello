@@ -90,7 +90,11 @@ a {
     border-left: 18px solid white;}
 
 #main {
-  padding-bottom: 200px;}
+  padding-bottom: 50px;}
+
+#footer {
+  text-align: center;
+}
 
 .container-main,
 .container {
